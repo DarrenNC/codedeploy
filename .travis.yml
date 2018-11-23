@@ -83,7 +83,7 @@ cache:
 # after_script
 
 # set -e : when error stop build.
-before_install:
+before_install: 
   - set -e
   - echo `date +"%Y-%m-%d %H:%M:%S"`
   - echo $TRAVIS_BRANCH
